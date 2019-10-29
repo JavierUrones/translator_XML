@@ -9,6 +9,7 @@ import xml.etree.ElementTree as ET
 import sys
 
 fileName=""
+NoneType = type(None)
 def getTree():
 	global fileName
 	fileName= raw_input("Insert the name of XML file or the file path: \n")
@@ -23,35 +24,38 @@ def main():
 	language = getLanguage()
 
 	for elem in root:
-            elem.text = translator.translate(elem.text, dest=language).text
-            for subelem in root.iter():
-                print(subelem.text)
-                subelem.text = translator.translate(subelem.text, dest=language).text
-                
-            tree.write(fileName[0:len(fileName)-4]+"_XMLtranslated_"+language+".xml", encoding="UTF-8")
-
+		elem.text = translator.translate(elem.text, dest=language).text
+		for subelem in elem.iter():
+			if type(subelem.text) != NoneType:
+				print(subelem.text)
+				subelem.text = translator.translate(subelem.text, dest=language).text
+			else:
+				print("Can not be translated")
+	tree.write(fileName[0:len(fileName)-4]+"_XMLtranslated_"+language+".xml", encoding="UTF-8")
 
 
 def getLanguage():
-    showOptions()
-    try:
-        language = int(raw_input('Select language number (1...4)\n'))
-	if language < 1 or language > 4:
-	    print('No valid option')
-	    print('Closing program....')
-	    sys.exit()
-	if(language == 1):
-            return 'es'
-        if(language== 2):
-            return 'fr'
-        if(language == 3):
-            return 'it'
-        if(language== 4):
-            return 'en'           
-    except:
-	 print('No valid option')
-	 print('Closing program....')
-	 sys.exit()
+	showOptions()
+	try:
+		language = int(raw_input('Select language number (1...4)\n'))
+		if language < 1 or language > 5:
+			print('No valid option')
+			print('Closing program....')
+			sys.exit()
+		if(language == 1):
+			return 'es'
+		if(language== 2):
+			return 'fr'
+		if(language == 3):
+			return 'it'
+		if(language== 4):
+			return 'en'
+		if(language== 5):
+			return 'ru'
+	except:
+		print('No valid option')
+		print('Closing program....')
+		sys.exit()
 
 def showOptions():
     print('---------Select the language to translate--------')
@@ -59,6 +63,7 @@ def showOptions():
     print('\t2...French')
     print('\t3...Italian')
     print('\t4...English')
+    print('\t5...Russian')
 
 
 

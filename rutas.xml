@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+  <rutas  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="rutas.xsd">
+    <ruta nombre="Ruta gastronómica por Oviedo">
+      <tipo>Gastronomica</tipo>
+      <transporte>A pie</transporte>
+      <horario>
+        <fechainicio>2018-11-01</fechainicio>
+        <horainicio>17:00:00</horainicio>
+        <duracion magnitud="horas">4</duracion>
+      </horario>
+      <agencia>Sin agencia</agencia>
+      <descripcionruta personasadecuadas="niños y adultos">Ruta para conocer bares y restaurantes de Oviedo</descripcionruta>
+      <lugarinicio>Calle Santa Ana</lugarinicio>
+      <direccion>Calle Mon</direccion>
+      <coordenadasinicio>
+        <latitudinicio>
+          43.361752
+        </latitudinicio>
+        <longitudinicio>
+          -5.843553
+        </longitudinicio>
+        <altitudinicio>
+          243
+        </altitudinicio>
+      </coordenadasinicio>
+      <referencias>
+        <referencia enlace="https://es.wikipedia.org/wiki/Oviedo">Información sobre la ciudad</referencia>
+        <referencia enlace="https://www.turismoasturias.es/descubre/ciudades/oviedo">Información sobre el turismo</referencia>
+        <referencia enlace="https://ocio.lne.es/hosteleria/asturias/bares-pubs/oviedo/">Lugares de ocio</referencia>
+      </referencias>
+      <recomendacion>6</recomendacion>
+      <hitos>
+        <hito nombre="La mar del medio">
+          <descripcionhito>Restaurante para ir con amigos</descripcionhito>
+          <coordenadas>
+            <latitud>
+              43.360989
+            </latitud>
+            <longitud>
+              -5.843440
+            </longitud>
+            <altitud>
+              237
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">102</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://cdn.restalo.com/static/img/restaurants/130/130767/130767_8521.gl.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Sidreria El Gato Negro">
+          <descripcionhito>La mejor sidreria de oviedo</descripcionhito>
+          <coordenadas>
+            <latitud>
+              43.360687
+            </latitud>
+            <longitud>
+              -5.843667
+            </longitud>
+            <altitud>
+              237
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">38</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://media-cdn.tripadvisor.com/media/photo-s/07/b6/f5/c3/el-gato-negro.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Casa Laure">
+          <descripcionhito>Restaurante acogedor</descripcionhito>
+          <coordenadas>
+            <latitud>
+              43.360439
+            </latitud>
+            <longitud>
+              -5.844020
+            </longitud>
+            <altitud>
+              244
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">40</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://4.bp.blogspot.com/-4Ouf8Wuh0uc/UwNYJZmJPfI/AAAAAAAAEUE/pNeKZ-ecPnk/s1600/5486309388_6baf5536f0_b.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+      </hitos>
+    </ruta>
+    <ruta nombre="Ruta monumentos por Asturias">
+      <tipo>Arquitectura y monumentos</tipo>
+      <transporte>Mixta a pie y autobús</transporte>
+      <horario>
+        <fechainicio>2018-10-24</fechainicio>
+        <horainicio>10:00:00</horainicio>
+        <duracion magnitud="horas">5</duracion>
+      </horario>
+      <agencia>Sin agencia</agencia>
+      <descripcionruta personasadecuadas="adultos">Ruta para conocer los monumentos más importantes de Asturias</descripcionruta>
+      <lugarinicio>San Julián de los Prados</lugarinicio>
+      <direccion>San Miguel de Lillo</direccion>
+      <coordenadasinicio>
+        <latitudinicio>
+          43.367695
+        </latitudinicio>
+        <longitudinicio>
+          -5.837250
+        </longitudinicio>
+        <altitudinicio>
+          196
+        </altitudinicio>
+      </coordenadasinicio>
+      <referencias>
+        <referencia enlace="https://es.wikipedia.org/wiki/San_Julián_de_los_Prados">Información sobre San Julián de los Prados</referencia>
+        <referencia enlace="https://es.wikipedia.org/wiki/San_Miguel_de_Lillo">Información sobre San Miguel de Lilo</referencia>
+        <referencia enlace="https://www.minube.com/tag/monumentos-historicos-asturias-z994">Monumentos importantes</referencia>
+      </referencias>
+      <recomendacion>8</recomendacion>
+      <hitos>
+        <hito nombre="San Miguel de Lillo">
+          <descripcionhito>Iglesia prerrománica del siglo IX d.C.</descripcionhito>
+          <coordenadas>
+            <latitud>
+              43.380280
+            </latitud>
+            <longitud>
+              -5.868333
+            </longitud>
+            <altitud>
+              389
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">2880</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="http://www.jdiezarnal.com/sanmigueldelilloiglesia10.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Santa María de Naranco">
+          <descripcionhito>Palacio del prerrománico Asturiano situado en la ladera del monte Naranco</descripcionhito>
+          <coordenadas>
+            <latitud>
+              43.379030
+            </latitud>
+            <longitud>
+              -5.865972
+            </longitud>
+            <altitud>
+              370
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">246</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="http://3.bp.blogspot.com/-6HP3ma-oV-I/VHO43HvIElI/AAAAAAAAGJE/VflSizt4fu4/s1600/07082014-DSC_0608.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Basílica de Covadonga">
+          <descripcionhito>Templo religioso situado en Covadonga</descripcionhito>
+          <coordenadas>
+            <latitud>
+              43.308600
+            </latitud>
+            <longitud>
+              -5.053610
+            </longitud>
+            <altitud>
+              258
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">66300</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://media-cdn.tripadvisor.com/media/photo-s/0c/cd/01/e2/basilica-covadonga.jpg"></fotografia>
+            <fotografia enlacefotografia="http://3.bp.blogspot.com/-TIT88gmlczg/U5nhioxeryI/AAAAAAAAEl8/5rAijj4qnuw/s1600/DSC_0036.JPG"></fotografia>
+          </galeriafotografias>
+          <galeriavideos>
+            <video enlacevideo="https://www.youtube.com/watch?v=1nUX9jdytSw"></video>
+            <video enlacevideo="https://www.youtube.com/watch?v=R0nhnPH3YLE"></video>
+          </galeriavideos>
+        </hito>
+      </hitos>
+    </ruta>
+    <ruta nombre="Paisajes de España">
+      <tipo>Paisajística</tipo>
+      <transporte>En tren y a pie</transporte>
+      <horario>
+        <fechainicio>2018-10-01</fechainicio>
+        <horainicio>07:00:00</horainicio>
+        <duracion magnitud="dias">7</duracion>
+      </horario>
+      <agencia>Sin agencia</agencia>
+      <descripcionruta personasadecuadas="niños, adultos y personas de tercera edad">Ruta para conocer los mejores paisajes del país</descripcionruta>
+      <lugarinicio>Madrid</lugarinicio>
+      <direccion>Huesca</direccion>
+      <coordenadasinicio>
+        <latitudinicio>
+          40.408976
+        </latitudinicio>
+        <longitudinicio>
+          -3.691957
+        </longitudinicio>
+        <altitudinicio>
+          631
+        </altitudinicio>
+      </coordenadasinicio>
+      <referencias>
+        <referencia enlace="https://elviajero.elpais.com/elviajero/2017/07/26/album/1501030373_944488.html">Información sobre paisajes</referencia>
+        <referencia enlace="https://www.skyscanner.es/noticias/los-10-paraisos-naturales-de-espana-mas-desconocidos">Paisajes naturales</referencia>
+        <referencia enlace="https://www.amazon.es/PaisajesNaturales">Libros sobre paisajes</referencia>
+      </referencias>
+      <recomendacion>9</recomendacion>
+      <hitos>
+        <hito nombre="Parque Nacional de Ordesa">
+          <descripcionhito>Parque natural ubicado en el Pirineo oscense</descripcionhito>
+          <coordenadas>
+            <latitud>
+              42.653421
+            </latitud>
+            <longitud>
+              0.034836
+            </longitud>
+            <altitud>
+              1860
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">398000</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://www.spain.info/export/sites/spaininfo/comun/galeria_imagenes/naturaleza/r_parque_nacional_ordesa_t2200169.jpg_369272544.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Playa de Sakoneta">
+          <descripcionhito>Una de las playas más bonitas de España</descripcionhito>
+          <coordenadas>
+            <latitud>
+              43.298502
+            </latitud>
+            <longitud>
+              -2.310076
+            </longitud>
+            <altitud>
+              20
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">203780</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://ucmedia.er2.co/es/corner-main/63/960/12532.jpg?1401427828"></fotografia>
+            <fotografia enlacefotografia="http://www.inforural.com/ficheros/image/playas/Guip%C3%BAzcoa/Deba/PlayadeSakoneta/foto3.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Cabo de Gata">
+          <descripcionhito>Parque natural de orígen volcánico</descripcionhito>
+          <coordenadas>
+            <latitud>
+              36.723528
+            </latitud>
+            <longitud>
+              -2.175149
+            </longitud>
+            <altitud>
+              100
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">731000</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://blog.solbooking.com/wp-content/uploads/2016/06/610_4448-1024x731.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Parque Nacional de Doñana">
+          <descripcionhito>Uno de los parques naturales con más biodiversidad de Europa</descripcionhito>
+          <coordenadas>
+            <latitud>
+              37.042704
+            </latitud>
+            <longitud>
+              -6.434181
+            </longitud>
+            <altitud>
+              66
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">378000</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="http://blog.toprural.com/wp-content/uploads/2013/08/Do%C3%B1ana.jpg"></fotografia>
+          </galeriafotografias>
+          <galeriavideos>
+            <video enlacevideo="https://www.youtube.com/watch?v=mQ4Y4PLvouc"></video>
+          </galeriavideos>
+        </hito>
+      </hitos>
+    </ruta>
+    <ruta nombre="Senderismo por los Picos de Europa">
+      <tipo>Senderismo</tipo>
+      <transporte>A pie y bicicleta</transporte>
+      <horario>
+        <fechainicio>2019-07-01</fechainicio>
+        <horainicio>11:00:00</horainicio>
+        <duracion magnitud="horas">8</duracion>
+      </horario>
+      <agencia>Sin agencia</agencia>
+      <descripcionruta personasadecuadas="solo adultos que tengan buena forma física">Ruta de senderismo a través de los Picos de Europa</descripcionruta>
+      <lugarinicio>Refugio Vega de Urriellu</lugarinicio>
+      <direccion>Naranjo de Bulnes</direccion>
+      <coordenadasinicio>
+        <latitudinicio>
+          43.202874
+        </latitudinicio>
+        <longitudinicio>
+          -4.821329
+        </longitudinicio>
+        <altitudinicio>
+          2017
+        </altitudinicio>
+      </coordenadasinicio>
+      <referencias>
+        <referencia enlace="http://parquenacionalpicoseuropa.es/">Información sobre el parque nacional de picos de europa</referencia>
+        <referencia enlace="https://www.picoseuropa.net/">Información general sobre los picos de europa</referencia>
+        <referencia enlace="http://www.elportaldepicos.com/actividades/">Actividades en los picos de europa</referencia>
+      </referencias>
+      <recomendacion>4</recomendacion>
+      <hitos>
+        <hito nombre="Naranjo de Bulnes">
+          <descripcionhito>Pico de origen paleozoico</descripcionhito>
+          <coordenadas>
+            <latitud>
+              43.200479
+            </latitud>
+            <longitud>
+              -4.816708
+            </longitud>
+            <altitud>
+              2519
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">446</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="http://www.escapadarural.com/blog/wp-content/uploads/2014/01/Naranjo-de-Bulnes-41.jpg"></fotografia>
+            <fotografia enlacefotografia="https://s3.eestatic.com/2018/05/19/deportes/Montanismo-Muertes-Asturias-Otros_Deportes-Deportes_308486676_78618660_1024x576.jpg"></fotografia>
+          </galeriafotografias>
+          <galeriavideos>
+            <video enlacevideo="https://www.youtube.com/watch?v=9wWXwluqRPA"></video>
+          </galeriavideos>
+        </hito>
+        <hito nombre="Torre de Cerredo">
+          <descripcionhito>Montaña de mayor altitud de Asturias</descripcionhito>
+          <coordenadas>
+            <latitud>
+              43.198615
+            </latitud>
+            <longitud>
+              -4.851156
+            </longitud>
+            <altitud>
+              2596
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">295</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://www.cantabriarural.com/wp-content/uploads/2016/07/Torre-Cerredo-Cantabria-Cantabriarural-A-800x533.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Caín de Valdeón">
+          <descripcionhito>Aldea perteneciente al municipio de Posada de Valdeón</descripcionhito>
+          <coordenadas>
+            <latitud>
+              43.213350
+            </latitud>
+            <longitud>
+              -4.905237
+            </longitud>
+            <altitud>
+              489
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">4711</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://digitaldeleon.com/wp-content/uploads/2018/07/digitaldeleon-com-2018-07-09-11-4046-015760.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Ermita de Corona">
+          <descripcionhito>Ermita situada en los Picos de Europa</descripcionhito>
+          <coordenadas>
+            <latitud>
+              43.183957
+            </latitud>
+            <longitud>
+              -4.902570
+            </longitud>
+            <altitud>
+              624
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">3240</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://s1.wklcdn.com/image_46/1409208/9959965/5978803Master.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Cordiñanes de Valdeón">
+          <descripcionhito>Pueblo situado en los Picos de Europa</descripcionhito>
+          <coordenadas>
+            <latitud>
+              43.167304
+            </latitud>
+            <longitud>
+              -4.901743
+            </longitud>
+            <altitud>
+              852
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">1840</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://media.er2.co/es/leon/551a74780e311/635/551a75ec30e4e.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+      </hitos>
+    </ruta>
+    <ruta nombre="Ruta por Lanzarote, la isla de los volcanes">
+      <tipo>Pasajística y de ocio</tipo>
+      <transporte>Mixta autobús, bicicleta y a pie</transporte>
+      <horario>
+        <duracion magnitud="horas">12</duracion>
+      </horario>
+      <agencia>Visitacity</agencia>
+      <descripcionruta personasadecuadas="Familias con o sin niños">Ruta para conocer la isla de Lanzarote</descripcionruta>
+      <lugarinicio>Arrecife</lugarinicio>
+      <direccion>Teguise</direccion>
+      <coordenadasinicio>
+        <latitudinicio>
+          28.9639681
+        </latitudinicio>
+        <longitudinicio>
+          -13.5499014
+        </longitudinicio>
+        <altitudinicio>
+          17
+        </altitudinicio>
+      </coordenadasinicio>
+      <referencias>
+        <referencia enlace="https://es.wikipedia.org/wiki/Lanzarote">Información sobre Lanzarote</referencia>
+        <referencia enlace="https://es.wikipedia.org/wiki/Isla_volc%C3%A1nica">¿Qué es una isla volcánica?</referencia>
+        <referencia enlace="http://www.lanzarote.com/es/lugares/">Lugares interesantes de Lanzarote</referencia>
+      </referencias>
+      <recomendacion>10</recomendacion>
+      <hitos>
+        <hito nombre="Teguise">
+          <descripcionhito>Ciudad apartada de la isla con restaurantes muy interesantes</descripcionhito>
+          <coordenadas>
+            <latitud>
+              29.0568991
+            </latitud>
+            <longitud>
+              -13.5614459
+            </longitud>
+            <altitud>
+              297
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">10450</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://es.lowcosttourslanzarote.com/photos/eZU0SGao/slideraJOfTnkZ.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Haría">
+          <descripcionhito>Ciudad al norte de Lanzarote</descripcionhito>
+          <coordenadas>
+            <latitud>
+              29.1458859
+            </latitud>
+            <longitud>
+              -13.5001038
+            </longitud>
+            <altitud>
+              287
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">11400</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="http://www.españaescultura.es/export/sites/cultura/multimedia/galerias/destinos/haria_lanzarote_t3500314.jpg_1306973099.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Punta Mujeres">
+          <descripcionhito>Pequeño pueblo con las mejores playas de la isla</descripcionhito>
+          <coordenadas>
+            <latitud>
+              29.144807
+            </latitud>
+            <longitud>
+              -13.4476087
+            </longitud>
+            <altitud>
+              10
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">4570</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://www.lancelotdigital.com/images/00000000000000000Punta-Mujeres.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Tinajo">
+          <descripcionhito>Pueblo en las cercanías del Timanfaya</descripcionhito>
+          <coordenadas>
+            <latitud>
+              29.066738
+            </latitud>
+            <longitud>
+              -13.676179
+            </longitud>
+            <altitud>
+              196
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">23680</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://sobrecanarias.com/files/Tinajo-Lanzarote.jpg"></fotografia>
+          </galeriafotografias>
+        </hito>
+        <hito nombre="Parque Nacional del Timanfaya">
+          <descripcionhito>Parque Natural de orígen volcánico</descripcionhito>
+          <coordenadas>
+            <latitud>
+              29.018151
+            </latitud>
+            <longitud>
+              -13.788763
+            </longitud>
+            <altitud>
+              159
+            </altitud>
+          </coordenadas>
+          <distancia unidades="metros">5000</distancia>
+          <galeriafotografias>
+            <fotografia enlacefotografia="https://cdn.traveler.es/uploads/images/thumbs/201510/parque_nacional_de_timanfaya_4720_600x315.jpg"></fotografia>
+            <fotografia enlacefotografia="http://www.gobiernodecanarias.org/opencms8/export/sites/parquesnacionalesdecanarias/.content/images/Timanfaya/timanfaya-9.jpg"></fotografia>
+          </galeriafotografias>
+          <galeriavideos>
+            <video enlacevideo="https://www.youtube.com/watch?v=94oYMlkb9rY"></video>
+            <video enlacevideo="https://www.youtube.com/watch?v=ee5b0OXnJoI"></video>
+            <video enlacevideo="https://www.youtube.com/watch?v=ooF5QBsoPak"></video>
+          </galeriavideos>
+        </hito>
+      </hitos>
+    </ruta>
+  </rutas>
