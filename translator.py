@@ -10,6 +10,7 @@ import sys
 
 fileName=""
 NoneType = type(None)
+
 def getTree():
 	global fileName
 	fileName= raw_input("Insert the name of XML file or the file path: \n")
@@ -35,27 +36,28 @@ def main():
 
 
 def getLanguage():
-	showOptions()
-	try:
-		language = int(raw_input('Select language number (1...4)\n'))
-		if language < 1 or language > 5:
-			print('No valid option')
-			print('Closing program....')
-			sys.exit()
-		if(language == 1):
-			return 'es'
-		if(language== 2):
-			return 'fr'
-		if(language == 3):
-			return 'it'
-		if(language== 4):
-			return 'en'
-		if(language== 5):
-			return 'ru'
-	except:
-		print('No valid option')
-		print('Closing program....')
-		sys.exit()
+    showOptions()
+    try:
+        languageIndex = int (raw_input('Select language number (1...5)\n'))
+        if(languageIndex < 1 or languageIndex >5):
+            sys.exit()
+        else:
+            selectedLanguage = menu(languageIndex)
+            return selectedLanguage
+    except:
+        print('Invalid option')
+        print('Closing program...')
+        sys.exit()
+        
+def menu(arg):
+    switcher = {
+            1: "es",
+            2: "fr",
+            3: "it",
+            4: "en",
+            5: "ru"
+    }
+    return switcher.get(arg, "No valid option, closing program...")
 
 def showOptions():
     print('---------Select the language to translate--------')
